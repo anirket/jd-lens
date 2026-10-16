@@ -1,0 +1,66 @@
+{
+  "name": "Aniket Kulkarni",
+  "years_of_experience": 4,
+  "skills": [
+    "React.js",
+    "Next.js",
+    "Astro.js",
+    "TypeScript",
+    "Node.js",
+    "Express",
+    "HTML",
+    "CSS",
+    "TailwindCSS",
+    "Redux",
+    "Jest",
+    "React Native (Expo)"
+  ],
+  "jobs": [
+    {
+      "company": "Smallcase (Tickertape)",
+      "title": "SDE - 2 Software Engineer",
+      "start": "Oct 2024",
+      "end": "Present",
+      "bullets": [
+        "Built a reusable frontend SDK adopted by multiple teams across the organization, standardizing shared functionality and reducing duplicated effort.",
+        "Reduced JavaScript bundle chunk sizes through code splitting, lazy loading and dependency cleanup, improving page load performance.",
+        "Raised code quality standards by establishing linting rules, coding guidelines and stricter code review practices across the team.",
+        "Improved internal developer tools, streamlining day-to-day workflows and increasing team productivity."
+      ]
+    },
+    {
+      "company": "Smallcase (Tickertape)",
+      "title": "SDE - 1 Frontend Engineer",
+      "start": "Oct 2022",
+      "end": "Oct 2024",
+      "bullets": [
+        "Developed a comprehensive user portfolio tracking platform that enables users to synchronize their investment assets, including mutual funds and stocks, facilitating a centralized location for tracking and managing their holdings.",
+        "Introduced unit testing within the codebase, which significantly contributed to the team's ability to create comprehensive tests and proactively identify potential bugs during the early stages of development.",
+        "Enabled Smallcase transactions on the platform, providing users with the convenience of buying and selling Smallcases directly within the platform.",
+        "Used Next.js, React.js, Astro.js, TypeScript, Jest etc."
+      ]
+    },
+    {
+      "company": "Smallcase (Tickertape)",
+      "title": "Frontend Intern",
+      "start": "Apr 2022",
+      "end": "Oct 2022",
+      "bullets": [
+        "Revamped the existing watchlist section, providing users with an enhanced platform to curate and monitor their preferred stocks and mutual funds.",
+        "Worked on code optimizations, discovery of many features, visualizations and charts.",
+        "Used Next.js, React.js, TypeScript, etc."
+      ]
+    },
+    {
+      "company": "Shortcast",
+      "title": "Web Engineer Intern",
+      "start": "Sep 2021",
+      "end": "Jan 2022",
+      "bullets": [
+        "As one of the earliest members of the team, played a pivotal role in rewriting the existing no-code website to a new version from scratch with a new UI using React.js.",
+        "Built the Android app using React Native Expo.",
+        "Used React.js, React Native (Expo) etc."
+      ]
+    }
+  ]
+}

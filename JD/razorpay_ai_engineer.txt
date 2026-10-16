@@ -1,0 +1,45 @@
+About the job
+
+Role : AI Engineer
+
+What you'll actually do :
+* Take a CxO-level problem from "we should do this" to "it's live, here's the impact", in 1 weeks, not quarters. Operate as engineer, PM, designer, and analyst.
+* The role is whatever the problem needs. Build agents that automate parts of the org's work, yours included.
+* Ship product, internal tools, customer-facing software, agent loops, automations, wherever leverage is highest.
+* Run experiments. Have strong opinions about which models, which tools, and which workflows actually work , and prove them with output.
+
+What we're looking for :
+* Background. 2–6 years of experience. Top engineering or CS school in India or abroad. Or you're currently at one of those schools and have decided dropping out and building is the better trade. Both paths land here.
+* AI-first by default. Not "I use ChatGPT sometimes." Your daily workflow assumes AI is in the loop on every task that can be improved by it. Cursor, Claude Code, custom agents, MCPs, pick your stack and own it.
+* Open-source model fluency. You've stress-tested the lineup, Llama, Mistral, Qwen, DeepSeek, GLM, Kimi, and whatever's on the leaderboard this week. You have opinions on which one wins where, what they're bad at, and where the cost / latency / quality frontier sits today.
+* Builder, not talker. Side projects, OSS contributions, internal tools at your last job, a hackathon weapon , something we can look at and say "that's a person who ships."
+* Single-person army energy. Ambiguity, multi-hat, no playbook , energising rather than draining.
+* Taste. You know good design, good UX, good code, and good prompts when you see them. You can articulate why one approach is better than another in a way that holds up under scrutiny.
+* Eval mindset. You don't just "vibe-check" your AI work. You build the smallest possible eval before shipping , and have an opinion about why most AI products fail without one.
+
+What makes you stand out
+* You've fine-tuned a model, even if just for fun.
+* You've built agents that orchestrate other agents, not just single-shot LLM calls.
+* You have a public artifact, GitHub stars, a blog, X posts that engineers quote, a YouTube channel where you build in public.
+* You contribute to open-source AI tooling.
+* You can show evidence of doing the work of five people in a quarter, and explain how.
+* You've shipped a product with paying users, even at small scale.
+* You've helped a startup or team replace a manual process with an agent that now runs on its own.
+
+What the first call looks like
+* This is non-standard, so we'll be transparent up front.
+* The first technical call is one hour, hands-on, and runs entirely off your screen.
+* Come ready to walk us through: Your AI productivity setup. The tools, the agents, the workflows, the hotkeys.
+* We want to see your terminal, your editor, your prompt library, your custom skills. 2 Your token usage history.
+* Yes, actually open the dashboard on the call, we want to see what you actually use, how much, on what.
+* Your three favourite projects. Demo each one, walk us through the architecture, and tell us what was hard.
+* Your learnings. What worked, what didn't, where AI broke down for you, what you do when a model is the wrong tool.
+
+What you'll get
+* Direct line to a CxO from day one.
+* Real ownership, products, businesses, P&L exposure, whatever the mandate requires.
+* A team of one or two, shaped by you.
+* We'll back the hires you want; we'll trust the calls you make.
+* Founder-engineer compensation, not IC-engineer compensation.
+* Freedom to use whatever models, agents, frameworks, and tools work best for the problem in front of you.
+* Working with leaders building Razorpay's next decade, not maintaining the last one

@@ -1,0 +1,68 @@
+Deployment Engineering
+Agent Engineer
+Deployment Engineering
+Bengaluru
+Full Time
+On-Site
+The distance between an AI system that works and one that millions of people rely on every day is where the real engineering lives. Crossing it is what Agent Engineers at Sarvam do.
+
+The agents you build go into live operation at India's largest banks, insurers, NBFCs and government departments, and at some of the country's fastest-growing companies, handling millions of real interactions, measured against outcomes the customer wants to drive.
+
+The hard part is not the first version. It is everything after: mapping the full space of what an agent has to handle so the scenarios that matter are covered by design rather than discovered in production, engineering for the failure modes instead of the happy path, and building the evals and instrumentation that make quality measurable, so drift surfaces in the data rather than in a customer escalation.
+
+We treat agents as code. Not prompts someone tweaks in a console, but engineered artifacts: versioned, reviewed, and held to a regression suite, where you can reason about what a change will do and roll it back if you are wrong. Anyone who has watched an AI system quietly decay because nobody could tell which change broke it understands why this matters.
+
+And then doing it again for the next customer, faster, because you built the first one to be repeatable.
+
+About Sarvam
+Sarvam is India's leading full-stack AI company, building sovereign AI infrastructure and applications purpose-built for India. Headquartered in Bengaluru and founded by leading AI researchers, Sarvam builds foundational models for Indian languages, enterprise AI platforms, and voice-first AI agents that serve hundreds of millions of Indians. Sarvam is backed by top-tier investors and works with national and state governments, large enterprises, and developers across the country. We are building the AI layer for a billion people.
+
+What this role promises you
+Production, at real scale
+Not prototypes, not demos. Systems in live operation at some of India's largest institutions, carrying real volume, measured against outcomes the customer has signed up to. You will see the consequences of your engineering decisions within days.
+
+You work at the source
+Sarvam builds the whole stack: the foundational models, the infrastructure they run on, and the products on top of them. When a deployment needs something that does not exist yet, whether that is model behaviour, an infrastructure capability or a product change, you are not filing a ticket with a vendor and waiting on a roadmap. You are in a room with the people who built it. Anyone who has delivered AI on top of someone else's black box knows how much difference that makes.
+
+A genuinely broad surface
+Sarvam's products span conversational AI, agentic workflows, intelligent document processing, and content, including dubbing and document translation. You will own a motion and go deep in it, and the depth you build travels well as products mature and new ones ship.
+
+What you'll do
+Build production agents on the Sarvam stack: prompts, system design, workflows, tool integrations, and evals.
+
+Map the space the agent has to cover. Work out the scenarios that matter, how each should be handled, and where the edges are, so coverage is designed rather than discovered later.
+
+Build the proof of concept when a customer wants to see it work before committing at scale, and get to a convincing result fast.
+
+Integrate into systems that were never designed for this: core banking, CRM, ticketing, telephony, and whatever else the customer runs.
+
+Own quality end to end. Define what good means for the use case, build the evals that measure it, and close the gap until the numbers hold.
+
+Engineer agents like software. Version them, review them, and hold them to a regression suite, so quality does not depend on who last edited a prompt.
+
+Tune for the constraints that decide whether a system survives production: accuracy, cost, reliability, and performance under real load.
+
+Design for scale and consistency from the outset. Systems that behave the same on the hundred-thousandth interaction as the first, and that are instrumented well enough for anyone to see when they are not.
+
+Take a proven pattern into a new customer and make it fit their environment, at pace and at quality.
+
+At senior levels, own the technical build playbooks and the technical quality bar for a motion, and bring partner engineers up to it.
+
+Who you are
+We are hiring across levels, from 3+ years of experience. What matters more than years is whether you have built something real users depended on and kept it working.
+
+You have shipped to production and owned it afterwards. Not just built it. Kept it running, fixed it at 11pm, and let real usage change your assumptions.
+
+You have worked with LLMs and agents seriously. Context engineering, tool use, structured outputs, memory, and the failure modes that only show up at scale. You have used agentic frameworks and both open and closed source models.
+
+You bring engineering discipline to AI. You think in versions, tests, regressions and reproducibility. You are uncomfortable when a system's behaviour depends on a prompt nobody can account for.
+
+You take evals seriously. You can define metrics that matter for a use case, build the pipeline, and tell the difference between a real signal and noise.
+
+Strong Python and range across the stack. Backend services, data pipelines, APIs, cloud infrastructure. When you meet an unfamiliar stack you pick it up in hours.
+
+You design for the long run. You build systems that hold their behaviour over months, not just on launch day: predictable under real load, instrumented so problems are visible, and structured so someone else can reason about them.
+
+You can sit with a customer's engineering team. Understand their constraints, explain yours, and get to a workable answer without either side losing patience.
+
+Sarvam is committed to building a diverse and inclusive team. All qualified applicants will receive consideration for employment regardless of background, identity, or personal characteristics. We believe the best AI for India can only be built by a team that reflects India.
