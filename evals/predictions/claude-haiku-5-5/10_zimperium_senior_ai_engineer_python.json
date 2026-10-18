@@ -1,0 +1,55 @@
+{
+  "company": "Zimperium",
+  "role": "Senior AI Engineer/Python Developer",
+  "seniority": "senior",
+  "years_min": 5,
+  "years_max": 9,
+  "location": "Bangalore, India",
+  "work_mode": "hybrid",
+  "responsibilities": [
+    "Develop high-performance, scalable web and task servers in Python",
+    "Design robust, maintainable server architecture with Django, Flask or similar",
+    "Design and implement scheduled services using RQ or other task queues",
+    "Integrate complex numerical learning and analysis code into web and task frameworks",
+    "Write and maintain documentation for server architecture and code",
+    "Mentor and guide junior engineers",
+    "Take part in code reviews and overall software design"
+  ],
+  "must_haves": [
+    "5-9 years hands-on Python development",
+    "Django, Flask or FastAPI",
+    "Exposure to AI tools (OpenAI, LangChain, Hugging Face, TensorFlow or PyTorch)",
+    "REST APIs and microservices architecture",
+    "Databases: PostgreSQL, MySQL or MongoDB",
+    "Cloud: AWS, Azure or GCP",
+    "Git and CI/CD pipelines",
+    "Strong problem-solving and communication"
+  ],
+  "nice_to_haves": [
+    "LLMs, generative AI or chatbot development",
+    "Docker and Kubernetes",
+    "MLOps tools and workflows",
+    "Agile/Scrum environments"
+  ],
+  "stack": [
+    "Python",
+    "Django",
+    "Flask",
+    "FastAPI",
+    "RQ",
+    "OpenAI",
+    "LangChain",
+    "Hugging Face",
+    "TensorFlow",
+    "PyTorch",
+    "PostgreSQL",
+    "MySQL",
+    "MongoDB",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Git",
+    "Docker",
+    "Kubernetes"
+  ]
+}

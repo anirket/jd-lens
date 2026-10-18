@@ -1,0 +1,37 @@
+{
+  "company": "Dscout",
+  "role": "Applied AI Engineer - India",
+  "seniority": "mid",
+  "years_min": 2,
+  "years_max": 5,
+  "location": "India",
+  "work_mode": "remote",
+  "responsibilities": [
+    "Own the production improvement loop for AI features",
+    "Instrument agent workflows so their behaviour is observable",
+    "Build evaluation datasets and monitoring",
+    "Diagnose underperformance across prompts, tools, routing and workflow design",
+    "Build backend services and feedback pipelines",
+    "Run A/B tests and staged rollouts",
+    "Work with Product, Data Science and Sales"
+  ],
+  "must_haves": [
+    "2-5 years of software engineering experience",
+    "LLM-powered features or agents shipped to production",
+    "Prompt and context engineering",
+    "Experience building evaluation harnesses",
+    "Comfort working with non-deterministic systems",
+    "Experiment design",
+    "Daily use of AI coding tools"
+  ],
+  "nice_to_haves": [
+    "Voice or real-time conversational AI",
+    "LLM observability tools",
+    "Agent orchestration frameworks such as LangGraph",
+    "MCP-based tooling"
+  ],
+  "stack": [
+    "LangGraph",
+    "MCP"
+  ]
+}

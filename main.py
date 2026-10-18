@@ -5,6 +5,7 @@ from anthropic import Anthropic
 from dotenv import load_dotenv
 from job_description import JobDescription
 from cost_log import log_run
+from pathlib import Path
 
 load_dotenv()
 
@@ -44,14 +45,11 @@ def extract_job_description(jd_text: str, model: str) -> JobDescription:
 
 
 if __name__ == "__main__":
-    # sample JD to test 1 extraction
-    with open("JD/sarvam_frontend_engineer_chanakya.txt", "r") as f:
-        job_description = f.read()
+    for case in sorted(Path("evals/cases").glob("*.txt")):
+        start = time.time()
+        job_extraction, usage = extract_job_description(case.read_text(), model)
+        seconds = time.time() - start
 
-    start = time.time()
-    job_extraction, usage = extract_job_description(job_description, model)
-    seconds = time.time() - start
+        print(job_extraction.model_dump_json(indent=2))
 
-    print(job_extraction.model_dump_json(indent=2))
-
-    log_run(model, "sarvam_frontend", usage["attempts"], usage["input"], usage["output"], seconds)
+        log_run(model, case.stem, usage["attempts"], usage["input"], usage["output"], seconds)

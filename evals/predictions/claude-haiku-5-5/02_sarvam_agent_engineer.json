@@ -1,0 +1,41 @@
+{
+  "company": "Sarvam",
+  "role": "Agent Engineer",
+  "seniority": "mid",
+  "years_min": 3,
+  "years_max": null,
+  "location": "Bengaluru",
+  "work_mode": "onsite",
+  "responsibilities": [
+    "Build production agents on the Sarvam stack, including prompts, system design, workflows, tool integrations, and evals",
+    "Map the scenarios an agent must cover, define how each is handled, and identify edge cases",
+    "Build proof-of-concept agents to show customers a working result before committing at scale",
+    "Integrate agents into systems such as core banking, CRM, ticketing, and telephony",
+    "Own quality end to end by defining good for each use case, building evals, and closing performance gaps",
+    "Version, review, and regression-test agents like software",
+    "Tune agents for accuracy, cost, reliability, and performance under real load",
+    "Design for scale and consistency, with instrumentation that surfaces drift",
+    "Adapt proven agent patterns to new customer environments",
+    "At senior levels, own technical build playbooks and quality bar, and mentor partner engineers"
+  ],
+  "must_haves": [
+    "3+ years of experience",
+    "Shipped to production and owned systems afterwards",
+    "Built systems real users depended on and kept them working",
+    "Worked seriously with LLMs and agents",
+    "Experience with context engineering, tool use, structured outputs, and memory",
+    "Experience with agentic frameworks",
+    "Experience with both open and closed source models",
+    "Engineering discipline: versioning, tests, regressions, reproducibility",
+    "Defined metrics for use cases and built evaluation pipelines",
+    "Ability to distinguish real signal from noise in evals",
+    "Strong Python",
+    "Range across backend services, data pipelines, APIs, and cloud infrastructure",
+    "Designs systems to hold behaviour over months, with observability",
+    "Able to work effectively with customer engineering teams"
+  ],
+  "nice_to_haves": [],
+  "stack": [
+    "Python"
+  ]
+}

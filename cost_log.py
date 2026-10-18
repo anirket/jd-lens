@@ -30,3 +30,4 @@ def log_run(model, case_id, attempts, input_tokens, output_tokens, seconds):
         f.write(json.dumps(row) + "\n")
 
     print(row)
+    return row
