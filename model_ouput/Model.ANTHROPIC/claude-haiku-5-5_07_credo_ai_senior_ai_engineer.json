@@ -1,0 +1,39 @@
+{
+  "company": "Credo AI",
+  "role": "Senior AI Research Scientist/Engineer - Governance Automation",
+  "seniority": "senior",
+  "years_min": 3,
+  "years_max": null,
+  "location": "India",
+  "work_mode": "remote",
+  "responsibilities": [
+    "Help build the Credo AI Agent, an assistant for governance workflows",
+    "Combine rule-based systems with AI capabilities",
+    "Build prototypes in the Labs environment",
+    "Research alignment, evaluation and oversight methods",
+    "Work with product, engineering and customer teams to take prototypes to production",
+    "Lead thought leadership through publications and talks",
+    "Lead the AI Governance Agent initiative to reduce manual AI risk management and compliance effort"
+  ],
+  "must_haves": [
+    "Advanced degree or equivalent experience",
+    "3+ years building and deploying production LLM systems",
+    "Prompt engineering",
+    "Retrieval-augmented generation",
+    "LLM alignment",
+    "Experience with multi-component agents or complex AI systems",
+    "Proficiency in Python and modern AI tooling",
+    "Understanding of AI risk, governance frameworks or compliance",
+    "Strong communication skills"
+  ],
+  "nice_to_haves": [
+    "Experience with risk, compliance or governance systems",
+    "Background in AI safety or responsible AI",
+    "Track record of practical AI applications",
+    "Rapid prototyping and experimental validation",
+    "Publications in AI safety, LLMs or governance"
+  ],
+  "stack": [
+    "Python"
+  ]
+}

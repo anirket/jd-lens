@@ -1,0 +1,35 @@
+{
+  "company": "FAFF",
+  "role": "Applied AI Engineer (Agents)",
+  "seniority": "mid",
+  "years_min": 2,
+  "years_max": 3,
+  "location": "Bengaluru, Karnataka",
+  "work_mode": "onsite",
+  "responsibilities": [
+    "Build and deploy AI agents and agentic workflows for real-world use cases",
+    "Own AI problem statements end to end, from understanding the problem to production",
+    "Design reliable systems combining LLMs, tools, retrieval, memory and structured workflows",
+    "Experiment with different approaches and find what works best",
+    "Improve accuracy, reliability, latency and cost of AI systems",
+    "Build evaluation and monitoring for AI applications",
+    "Work with product and engineering to turn real problems into AI solutions",
+    "Debug failures and keep improving production AI systems"
+  ],
+  "must_haves": [
+    "2-3 years in AI/ML engineering or closely related engineering role",
+    "Current or previous experience at a product-based company",
+    "Hands-on experience building and shipping AI/ML systems",
+    "Experience building AI agents, agentic workflows or tool-calling systems",
+    "Strong understanding of LLMs in production",
+    "Strong programming skills",
+    "Ability to take an ambiguous problem and go deep to solve it",
+    "Experience with RAG, embeddings, vector databases, evaluation, prompt engineering or model integration",
+    "Strong problem-solving and debugging skills",
+    "Deep, not surface-level, GenAI/LLM exposure"
+  ],
+  "nice_to_haves": [],
+  "stack": [
+    "Python"
+  ]
+}

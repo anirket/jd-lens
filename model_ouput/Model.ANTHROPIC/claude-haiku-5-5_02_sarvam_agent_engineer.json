@@ -1,0 +1,44 @@
+{
+  "company": "Sarvam",
+  "role": "Agent Engineer",
+  "seniority": "mid",
+  "years_min": 3,
+  "years_max": null,
+  "location": "Bengaluru",
+  "work_mode": "onsite",
+  "responsibilities": [
+    "Build production agents on the Sarvam stack, covering prompts, system design, workflows, tool integrations, and evals",
+    "Map the scenarios an agent must cover, how each should be handled, and where the edges are",
+    "Build proof-of-concept agents to show customers a working result before scaling",
+    "Integrate agents into legacy systems such as core banking, CRM, ticketing, and telephony",
+    "Define what quality means for each use case, build evals that measure it, and close the gap",
+    "Version, review, and regression-test agents like software",
+    "Tune accuracy, cost, reliability, and performance under real load",
+    "Design systems that behave consistently at scale and are instrumented to surface drift",
+    "Adapt proven patterns to new customer environments at pace and quality",
+    "At senior levels, own technical build playbooks and quality bar, and mentor partner engineers"
+  ],
+  "must_haves": [
+    "3+ years of experience",
+    "Shipped to production and owned the system afterwards",
+    "Built something real users depended on and kept it working",
+    "Worked seriously with LLMs and agents",
+    "Experience with context engineering",
+    "Experience with tool use and structured outputs",
+    "Experience with memory in agent systems",
+    "Understanding of failure modes that appear only at scale",
+    "Used agentic frameworks",
+    "Used both open and closed source models",
+    "Engineering discipline with versioning, tests, regressions, and reproducibility",
+    "Takes evals seriously and can define metrics for a use case",
+    "Can build eval pipelines and distinguish real signal from noise",
+    "Strong Python",
+    "Range across backend services, data pipelines, APIs, and cloud infrastructure",
+    "Designs systems to hold behaviour over months, with instrumentation",
+    "Able to work with customer engineering teams and explain trade-offs"
+  ],
+  "nice_to_haves": [],
+  "stack": [
+    "Python"
+  ]
+}

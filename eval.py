@@ -60,12 +60,13 @@ retries = 0
 
 for case in sorted(Path("evals/cases").glob("*.txt")):
     label = json.loads(Path(f"evals/cases_output/{case.stem}.expected.json").read_text())
-
+    output_path = Path(f"model_ouput/{model}/{modelId}_{case.stem}.json") 
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     start = time.time()
     jd, usage = extract_job_description(case.read_text(), model, modelId)
     seconds = time.time() - start
     run = log_run(modelId, case.stem, usage["attempts"], usage["input"], usage["output"], seconds)
-
+    output_path.write_text(jd.model_dump_json(indent=2))
     # seniority: same word or not -> 1 or 0
     scores["seniority"].append(1 if jd.seniority == label["seniority"] else 0)
 

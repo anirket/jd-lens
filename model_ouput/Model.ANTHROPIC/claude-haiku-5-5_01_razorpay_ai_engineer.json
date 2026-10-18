@@ -1,0 +1,47 @@
+{
+  "company": "Razorpay",
+  "role": "AI Engineer",
+  "seniority": "mid",
+  "years_min": 2,
+  "years_max": 6,
+  "location": null,
+  "work_mode": null,
+  "responsibilities": [
+    "Take CxO-level problems from idea to live product with measurable impact in about 1 week",
+    "Operate as engineer, PM, designer, and analyst on each problem",
+    "Build agents that automate parts of the organization's work, including your own",
+    "Ship product, internal tools, customer-facing software, agent loops, and automations",
+    "Run experiments to determine which models, tools, and workflows work, and prove results with output"
+  ],
+  "must_haves": [
+    "2–6 years of experience",
+    "Top engineering or CS school in India or abroad, or currently enrolled and building instead",
+    "AI-first daily workflow with AI in the loop on tasks it can improve",
+    "Open-source model fluency across major model families",
+    "Opinions on model cost, latency, and quality tradeoffs, backed by testing",
+    "Builder with evidence of shipping, such as side projects, OSS, or internal tools",
+    "Comfortable with ambiguity and wearing multiple hats without a playbook",
+    "Strong taste in design, UX, code, and prompts, with ability to justify choices",
+    "Eval mindset: builds small evals before shipping and does not rely on vibe checks"
+  ],
+  "nice_to_haves": [
+    "Has fine-tuned a model",
+    "Has built agents that orchestrate other agents",
+    "Public artifact such as GitHub stars, blog, X posts, or YouTube channel",
+    "Contributes to open-source AI tooling",
+    "Can show doing the work of five people in a quarter and explain how",
+    "Has shipped a product with paying users",
+    "Has replaced a manual process with an agent that runs autonomously"
+  ],
+  "stack": [
+    "Cursor",
+    "Claude Code",
+    "MCP",
+    "Llama",
+    "Mistral",
+    "Qwen",
+    "DeepSeek",
+    "GLM",
+    "Kimi"
+  ]
+}
