@@ -1,12 +1,13 @@
 import json
 from datetime import datetime
+from config import all_models
 
-# USD per 1 million tokens
 PRICES = {
-    "claude-haiku-5-5": {"in": 0.10, "out": 0.50},
-    "claude-opus-5-5": {"in": 4.00, "out": 20.00},
-    "claude-sonnet-5-5": {"in": 2.00, "out": 10.00}
+    model_info["modelId"]: model_info["tokens"]
+    for vendor_dict in all_models.values()
+    for model_info in vendor_dict.values()
 }
+
 USD_TO_INR = 88.0  # TODO: today's rate + date
 
 

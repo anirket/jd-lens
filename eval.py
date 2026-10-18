@@ -13,6 +13,7 @@ from rapidfuzz import fuzz
 from main import extract_job_description
 from cost_log import log_run
 from aliases import ALIASES
+from config import all_models, Model
 
 THRESHOLDS = {
     "seniority": 0.90,
@@ -21,7 +22,8 @@ THRESHOLDS = {
     "stack_recall": 0.80,
 }
 
-model = sys.argv[1] if len(sys.argv) > 1 else "claude-haiku-5-5"  # default model
+model = Model[sys.argv[1]] if len(sys.argv) > 1 else Model.ANTHROPIC  # "ANTHROPIC" (text) -> Model.ANTHROPIC
+modelId = sys.argv[2] if len(sys.argv) > 2 else "claude-haiku-5-5"  # default model
 
 
 # ---------- Part 1: how to compare ----------
@@ -60,9 +62,9 @@ for case in sorted(Path("evals/cases").glob("*.txt")):
     label = json.loads(Path(f"evals/cases_output/{case.stem}.expected.json").read_text())
 
     start = time.time()
-    jd, usage = extract_job_description(case.read_text(), model)
+    jd, usage = extract_job_description(case.read_text(), model, modelId)
     seconds = time.time() - start
-    run = log_run(model, case.stem, usage["attempts"], usage["input"], usage["output"], seconds)
+    run = log_run(modelId, case.stem, usage["attempts"], usage["input"], usage["output"], seconds)
 
     # seniority: same word or not -> 1 or 0
     scores["seniority"].append(1 if jd.seniority == label["seniority"] else 0)
@@ -84,8 +86,7 @@ for case in sorted(Path("evals/cases").glob("*.txt")):
 
 # ---------- Part 3: report ----------
 
-print(f"\n=== {model} ===")
-print(f"\n=== {scores} ===")
+print(f"\n=== {modelId} ===")
 
 failed = []
 for name, values in scores.items():
