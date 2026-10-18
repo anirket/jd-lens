@@ -13,13 +13,13 @@
     "Diagnose underperformance across prompts, tools, routing and workflow design",
     "Build backend services and feedback pipelines",
     "Run A/B tests and staged rollouts",
-    "Work with Product, Data Science and Sales"
+    "Collaborate with Product, Data Science and Sales"
   ],
   "must_haves": [
-    "2-5 years of software engineering experience",
+    "2-5 years software engineering experience",
     "Shipped LLM-powered features or agents to production",
     "Prompt and context engineering",
-    "Experience building evaluation harnesses",
+    "Building evaluation harnesses",
     "Comfort with non-deterministic systems",
     "Experiment design",
     "Daily use of AI coding tools"
@@ -27,7 +27,7 @@
   "nice_to_haves": [
     "Voice or real-time conversational AI",
     "LLM observability tools",
-    "Agent orchestration frameworks such as LangGraph",
+    "Agent orchestration frameworks (e.g. LangGraph)",
     "MCP-based tooling"
   ],
   "stack": [

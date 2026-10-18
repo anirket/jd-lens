@@ -7,29 +7,30 @@
   "location": null,
   "work_mode": null,
   "responsibilities": [
-    "Take CxO-level problems from idea to live impact in about a week",
+    "Take CxO-level problems from idea to live impact in weeks",
     "Operate as engineer, PM, designer, and analyst",
     "Build agents that automate parts of the org's work",
-    "Ship products, internal tools, customer-facing software, agent loops, and automations",
-    "Run experiments on models, tools, and workflows and prove results with output"
+    "Ship product, internal tools, customer-facing software, agent loops, automations",
+    "Run experiments on models, tools, and workflows",
+    "Prove opinions on models and workflows with output"
   ],
   "must_haves": [
-    "2–6 years of experience",
-    "Top engineering/CS school in India or abroad (or current student willing to drop out)",
+    "2-6 years of experience",
+    "Top engineering or CS school background",
     "AI-first daily workflow",
+    "Own an AI tooling stack (Cursor, Claude Code, custom agents, MCPs)",
     "Open-source model fluency",
-    "Opinions on cost/latency/quality tradeoffs across models",
+    "Opinions on cost/latency/quality tradeoffs of models",
     "Track record of shipping (side projects, OSS, internal tools, hackathons)",
-    "Comfortable with ambiguity and multi-hat roles",
+    "Comfort with ambiguity and multi-hat work",
     "Taste in design, UX, code, and prompts",
-    "Eval mindset, builds minimal evals before shipping",
-    "Able to demo AI setup, token usage, and three projects on first call"
+    "Eval mindset; build evals before shipping"
   ],
   "nice_to_haves": [
     "Fine-tuned a model",
     "Built multi-agent orchestration systems",
     "Public artifact (GitHub stars, blog, X posts, YouTube)",
-    "Open-source AI tooling contributions",
+    "Contributions to open-source AI tooling",
     "Evidence of doing the work of five people in a quarter",
     "Shipped a product with paying users",
     "Replaced a manual process with an autonomous agent"
@@ -43,6 +44,7 @@
     "Qwen",
     "DeepSeek",
     "GLM",
-    "Kimi"
+    "Kimi",
+    "ChatGPT"
   ]
 }

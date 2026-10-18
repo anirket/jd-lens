@@ -8,17 +8,17 @@
   "work_mode": "hybrid",
   "responsibilities": [
     "Develop high-performance, scalable web and task servers in Python",
-    "Design robust, maintainable server architecture with Django, Flask or similar",
+    "Design maintainable server architecture with Django, Flask or similar",
     "Design and implement scheduled services using RQ or other task queues",
     "Integrate numerical learning and analysis code into web and task frameworks",
-    "Write and maintain documentation for server architecture and code",
+    "Write and maintain server architecture and code documentation",
     "Mentor and guide junior engineers",
     "Take part in code reviews and software design"
   ],
   "must_haves": [
     "5-9 years hands-on Python development",
     "Django, Flask or FastAPI",
-    "Exposure to AI tools (OpenAI, LangChain, Hugging Face, TensorFlow, PyTorch)",
+    "Exposure to AI tools (OpenAI, LangChain, Hugging Face, TensorFlow or PyTorch)",
     "REST APIs",
     "Microservices architecture",
     "Databases: PostgreSQL, MySQL or MongoDB",
@@ -29,7 +29,9 @@
     "Strong communication"
   ],
   "nice_to_haves": [
-    "LLMs, generative AI or chatbot development",
+    "LLMs",
+    "Generative AI",
+    "Chatbot development",
     "Docker",
     "Kubernetes",
     "MLOps tools and workflows",

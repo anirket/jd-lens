@@ -7,38 +7,41 @@
   "location": "Bengaluru",
   "work_mode": "onsite",
   "responsibilities": [
-    "Design and build performant, production-grade frontend interfaces for strategic sector and enterprise AI use cases",
-    "Build geospatial overlays, simulation UIs, natural language access layers, ontology viewers, and data ingestion dashboards",
-    "Own the frontend layer of atoms end-to-end, from component architecture to deployment in client-embedded environments",
-    "Collaborate with backend engineers and the PM to ship complete, scoped atoms to real users",
-    "Build for constrained environments: offline-first, low-bandwidth, limited hardware",
-    "Contribute to shared frontend infrastructure: component libraries, design system, state management patterns",
+    "Build production-grade frontend interfaces for strategic sector and enterprise AI use cases",
+    "Build geospatial overlays, simulation UIs, ontology viewers, and data ingestion dashboards",
+    "Own frontend layer of atoms end-to-end, from component architecture to deployment",
+    "Collaborate with backend engineers and PM to ship scoped atoms to real users",
+    "Build for offline-first, low-bandwidth, limited-hardware environments",
+    "Contribute to component libraries, design system, and state management patterns",
     "Participate in field testing and client feedback loops with Strategic Deployment Engineers"
   ],
   "must_haves": [
-    "3-6 years in frontend engineering",
+    "3–6 years frontend engineering",
     "Shipped production-grade products",
     "Deep React proficiency",
     "TypeScript",
     "Modern CSS (Tailwind or equivalent)",
     "Strong component architecture instincts",
-    "State management proficiency (Zustand, Redux Toolkit, or equivalent)",
+    "State management (Zustand, Redux Toolkit, or equivalent)",
     "Strong async data patterns",
-    "Data visualisation experience, at least one tool in production",
+    "Data visualisation library used in production",
     "REST API integration",
     "WebSocket API integration",
-    "Backend awareness to debug across the boundary",
-    "Performance engineering: bundle optimisation, lazy loading, rendering performance in low-resource environments"
+    "Backend awareness to debug across boundary",
+    "Bundle optimisation",
+    "Lazy loading",
+    "Rendering performance in low-resource environments"
   ],
   "nice_to_haves": [
     "WebGL or Three.js for 3D visualisation",
     "Electron or desktop app experience",
     "Offline-first or PWA architecture",
-    "Prior work on dashboards, command-and-control UIs, or complex enterprise tooling"
+    "Dashboards, command-and-control UIs, or complex enterprise tooling"
   ],
   "stack": [
     "React",
     "TypeScript",
+    "CSS",
     "Tailwind",
     "Zustand",
     "Redux Toolkit",

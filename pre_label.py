@@ -9,7 +9,7 @@ CASES_DIR = Path("evals/cases")
 OUT_DIR = Path("evals/cases_output")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-model = "claude-sonnet-5-5"
+model = "claude-opus-5-5"
 
 
 for case in sorted(CASES_DIR.glob("*.txt")):
@@ -21,7 +21,7 @@ for case in sorted(CASES_DIR.glob("*.txt")):
     start = time.time()
     jd, usage = extract_job_description(txt, model=model)
     seconds = time.time() - start
-    log_run(model, "sarvam_frontend", usage["attempts"], usage["input"], usage["output"], seconds)
+    log_run(model, case.stem, usage["attempts"], usage["input"], usage["output"], seconds)
 
 
 
