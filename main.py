@@ -10,7 +10,8 @@ load_dotenv()
 
 api_key = os.environ['ANTHROPIC_API_KEY']
 
-client = instructor.from_anthropic(Anthropic(api_key=api_key))
+# JSON mode: newer models (e.g. Opus 5.5) reject the forced tool call that the default TOOLS mode uses
+client = instructor.from_anthropic(Anthropic(api_key=api_key), mode=instructor.Mode.ANTHROPIC_JSON)
 
 model = "claude-haiku-5-5"
 
@@ -38,7 +39,7 @@ def extract_job_description(jd_text: str, model: str) -> JobDescription:
             response_model=JobDescription
         )
     finally:
-        client.on("completion:response", count_tokens)
+        client.off("completion:response", count_tokens)
     return result, usage
 
 

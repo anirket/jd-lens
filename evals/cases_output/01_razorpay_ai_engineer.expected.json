@@ -1,0 +1,48 @@
+{
+  "company": "Razorpay",
+  "role": "AI Engineer",
+  "seniority": "mid",
+  "years_min": 2,
+  "years_max": 6,
+  "location": null,
+  "work_mode": null,
+  "responsibilities": [
+    "Take CxO-level problems from idea to live impact in about a week",
+    "Operate as engineer, PM, designer, and analyst",
+    "Build agents that automate parts of the org's work",
+    "Ship products, internal tools, customer-facing software, agent loops, and automations",
+    "Run experiments on models, tools, and workflows and prove results with output"
+  ],
+  "must_haves": [
+    "2–6 years of experience",
+    "Top engineering/CS school in India or abroad (or current student willing to drop out)",
+    "AI-first daily workflow",
+    "Open-source model fluency",
+    "Opinions on cost/latency/quality tradeoffs across models",
+    "Track record of shipping (side projects, OSS, internal tools, hackathons)",
+    "Comfortable with ambiguity and multi-hat roles",
+    "Taste in design, UX, code, and prompts",
+    "Eval mindset, builds minimal evals before shipping",
+    "Able to demo AI setup, token usage, and three projects on first call"
+  ],
+  "nice_to_haves": [
+    "Fine-tuned a model",
+    "Built multi-agent orchestration systems",
+    "Public artifact (GitHub stars, blog, X posts, YouTube)",
+    "Open-source AI tooling contributions",
+    "Evidence of doing the work of five people in a quarter",
+    "Shipped a product with paying users",
+    "Replaced a manual process with an autonomous agent"
+  ],
+  "stack": [
+    "Cursor",
+    "Claude Code",
+    "MCP",
+    "Llama",
+    "Mistral",
+    "Qwen",
+    "DeepSeek",
+    "GLM",
+    "Kimi"
+  ]
+}

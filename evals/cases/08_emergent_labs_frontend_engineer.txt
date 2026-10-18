@@ -1,0 +1,42 @@
+Source: https://job-boards.greenhouse.io/emergentlabsinc/jobs/4028985009
+Note: condensed rewrite of the original posting, not verbatim.
+
+Frontend Engineer
+Emergent Labs
+Bangalore (Marathahalli office) | Full Time | On-Site
+
+About Emergent
+Emergent builds autonomous coding agents that generate, test and deploy applications from plain-language instructions. It reports over $100M ARR and 10M+ users across 190+ countries.
+
+What you'll do
+* Define and own frontend architecture for complex, high-scale products
+* Design scalable component systems, UI frameworks and internal tooling
+* Turn product requirements and Figma designs into sound technical architecture
+* Lead performance, accessibility, security and scalability work
+* Break down complex problems, propose long-term technical strategy and influence the roadmap
+* Build reusable libraries, design systems and internal packages
+* Review critical code paths and set engineering best practices
+* Work with Product, Design and Backend on end-to-end solutions
+* Mentor senior engineers toward architect-level work
+
+What we're looking for
+* 6-9 years of frontend engineering experience
+* Deep React.js and TypeScript expertise
+* Experience architecting large, distributed, modular frontend systems
+* Modern state management: Redux, Zustand, Recoil, React Query or similar
+* Expert JavaScript (ES6+), Web APIs, browser internals and performance tuning
+* Build tools and bundle optimisation (Webpack, Vite, Turborepo)
+* Designing UI frameworks, component libraries and cross-platform solutions
+* REST, GraphQL, caching and client-side data architecture
+* Debugging production-scale issues
+* Automated testing (Jest, React Testing Library, Cypress) and CI/CD
+
+Good to have
+* Next.js, micro-frontends or SSR architectures
+* Design systems and component libraries (Storybook, MUI, Chakra, Radix)
+* Open-source contributions or internal engineering frameworks
+* Web security, accessibility and SEO
+* Mentoring engineers or leading cross-functional initiatives
+
+Benefits
+Lunch and dinner, family insurance, unlimited paid time off, flexible hours.

@@ -1,0 +1,40 @@
+{
+  "company": "Sarvam",
+  "role": "Agent Engineer",
+  "seniority": "mid",
+  "years_min": 3,
+  "years_max": null,
+  "location": "Bengaluru",
+  "work_mode": "onsite",
+  "responsibilities": [
+    "Build production agents on the Sarvam stack: prompts, system design, workflows, tool integrations, evals",
+    "Map the scenarios an agent has to cover and how each should be handled",
+    "Build proofs of concept for customers quickly",
+    "Integrate agents into legacy systems like core banking, CRM, ticketing, telephony",
+    "Own quality end to end: define metrics, build evals, close the gap",
+    "Engineer agents like software: versioning, review, regression suite",
+    "Tune for accuracy, cost, reliability, and performance under load",
+    "Design for scale and consistency with good instrumentation",
+    "Adapt proven patterns to new customers' environments at pace",
+    "At senior levels, own technical build playbooks and quality bar, and mentor partner engineers"
+  ],
+  "must_haves": [
+    "3+ years of experience",
+    "Shipped to production and owned it afterwards",
+    "Serious experience with LLMs and agents",
+    "Context engineering, tool use, structured outputs, memory",
+    "Experience with agentic frameworks",
+    "Experience with open and closed source models",
+    "Engineering discipline: versions, tests, regressions, reproducibility",
+    "Define evals and metrics, distinguish signal from noise",
+    "Strong Python",
+    "Range across the stack: backend, data pipelines, APIs, cloud infrastructure",
+    "Quickly pick up unfamiliar stacks",
+    "Design long-running, instrumented, predictable systems",
+    "Work with customer engineering teams"
+  ],
+  "nice_to_haves": [],
+  "stack": [
+    "Python"
+  ]
+}

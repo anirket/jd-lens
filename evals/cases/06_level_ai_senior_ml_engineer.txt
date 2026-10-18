@@ -1,0 +1,28 @@
+Source: https://jobs.lever.co/levelai/55ba7aee-57ff-440c-91a4-58bcafcd10a8
+Note: condensed rewrite of the original posting, not verbatim.
+
+Senior Machine Learning Engineer (Bangalore/Noida Location)
+Level AI
+Bangalore / Noida | Full Time | Hybrid
+
+About Level AI
+Level AI was founded in 2019, is a Series C startup, and is headquartered in Mountain View, California.
+
+What you'll do
+* Build and deploy LLM-powered agents for internal tools and customer-facing products
+* Design and improve RAG pipelines, prompt engineering workflows and tool integrations
+* Experiment with open-source and closed-source LLMs
+* Implement and evaluate reasoning, planning, memory and retrieval modules for agents
+* Optimise ML and LLM systems for accuracy, latency, scalability and cost
+* Build production-ready AI/NLP pipelines with monitoring, evaluation benchmarks and continual improvement loops
+* Collaborate with product, engineering and customer-facing teams to ship AI features
+
+We'd love to explore more about you if you have
+* B.Tech, M.Tech or PhD in CS or a maths-related field from a tier-1 institute
+* 3+ years of industry experience in ML and NLP or applied AI
+* Strong Python programming
+* Interest and experience in RAG and agentic AI
+* Experience with PyTorch, Hugging Face Transformers or similar libraries
+* Interest and experience in model training, inference optimisation and GPUs
+* Experience deploying ML services via REST APIs, Docker, Kubernetes or cloud platforms
+* Exposure to vector databases such as FAISS, Pinecone or Qdrant

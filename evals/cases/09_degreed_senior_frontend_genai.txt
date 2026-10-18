@@ -1,0 +1,39 @@
+Source: https://job-boards.greenhouse.io/degreed/jobs/5586036004
+Note: condensed rewrite of the original posting, not verbatim.
+
+Senior Frontend Engineer - GenAI Applications
+Degreed
+Bengaluru, Karnataka | Full Time | Hybrid
+
+About the role
+Degreed is an upskilling platform. This role sits on the AI engineering team, building the user-facing interfaces for GenAI features alongside backend, data and GenAI engineers.
+
+What you'll do
+* Lead end-to-end implementation and optimisation of user-facing features for GenAI and AI-driven products
+* Work with AI, backend and data engineers on frontends for LLM assistants, interactive data visualisations and prompt interfaces
+* Guide and mentor frontend team members and promote best practices and code quality
+* Build polished, interactive UIs with a focus on usability, accessibility and performance
+* Troubleshoot production issues so AI-driven experiences stay reliable and scalable
+* Partner with product managers, UX and design to align features with business and user needs
+* Improve engineering processes: deployment, testing, monitoring and localisation
+* Keep up with frontend and GenAI advances and bring new approaches to the team
+
+What we're looking for
+* 7+ years building frontend applications
+* 3+ years with Angular (v14+ preferred)
+* Designing scalable, performant SaaS frontends
+* Shipped multiple GenAI applications: LLM assistants, chatbots, real-time AI features or AI data visualisations
+* Technical leadership: mentoring, code reviews, architecture and engineering standards
+* Deep TypeScript, ES6 and RxJS
+* Reusable components and modular, maintainable UI architecture
+* HTML, CSS (Tailwind preferred) and UI/UX patterns
+* Integrating GenAI APIs and real-time data flows
+* Frontend testing with Jest, Cypress or similar
+* Strong cross-functional collaboration and communication
+
+Bonus
+* Accessibility (a11y), ARIA and screen readers
+* Data visualisation (HighCharts, D3.js)
+* Monorepo tooling (Nx)
+* React
+* Backend exposure (C#, .NET, SQL)

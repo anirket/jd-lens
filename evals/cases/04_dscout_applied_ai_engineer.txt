@@ -1,0 +1,36 @@
+Source: https://job-boards.greenhouse.io/dscout/jobs/4370258009
+Note: condensed rewrite of the original posting, not verbatim.
+
+Applied AI Engineer - India
+Dscout
+Remote - India | Full Time
+
+About Dscout
+Dscout runs a UX research platform used by large brands. The team builds AI-native product features, where success is measured by how well agents behave across real-world scenarios, not by passing a fixed test suite.
+
+What you'll do
+* Own the production improvement loop for AI features
+* Instrument agent workflows so their behaviour is observable
+* Build evaluation datasets and monitoring
+* Diagnose underperformance across prompts, tools, routing and workflow design
+* Build backend services and feedback pipelines
+* Run A/B tests and staged rollouts
+* Work with Product, Data Science and Sales
+
+What we're looking for
+* 2-5 years of software engineering experience
+* LLM-powered features or agents shipped to production
+* Prompt and context engineering
+* Experience building evaluation harnesses
+* Comfort working with non-deterministic systems
+* Experiment design
+* Daily use of AI coding tools
+
+Nice to have
+* Voice or real-time conversational AI
+* LLM observability tools
+* Agent orchestration frameworks such as LangGraph
+* MCP-based tooling
+
+Benefits
+Bonus and equity, flexible PTO, 15 company holidays, 12 weeks paid parental leave, education stipend, remote work stipend.

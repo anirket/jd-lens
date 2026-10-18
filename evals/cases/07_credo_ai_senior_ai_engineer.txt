@@ -1,0 +1,41 @@
+Source: https://jobs.ashbyhq.com/credo.ai/73f15a77-9b84-46de-bd9e-bf76f70b6d84
+Note: condensed rewrite of the original posting, not verbatim.
+
+Senior AI Research Scientist/Engineer - Governance Automation (India)
+Credo AI
+India | Full Time | Remote (distributed team, occasional in-person meetups, coworking support)
+Working hours: candidate's choice of EST, CST or PST
+Base salary: INR 40-50L
+
+About Credo AI
+Credo AI positions itself as the trust layer for enterprise AI governance. Its platform uses an agent-updated knowledge graph, enriched with regulatory intelligence and business context and backed by forward-deployed experts, to surface the risk behind each AI system.
+
+About the role
+Lead the AI Governance Agent initiative, cutting manual effort in AI risk management and compliance: risk identification, control selection, evidence evaluation, and eventually full governance workflows, with humans kept in the loop.
+
+What you'll do
+* Help build the Credo AI Agent, an assistant for governance workflows
+* Combine rule-based systems with AI capabilities
+* Build prototypes in the Labs environment
+* Research alignment, evaluation and oversight methods
+* Work with product, engineering and customer teams to take prototypes to production
+* Lead thought leadership through publications and talks
+
+Minimum qualifications
+* Advanced degree or equivalent experience
+* 3+ years building and deploying production LLM systems
+* Prompt engineering, retrieval-augmented generation and LLM alignment
+* Experience with multi-component agents or complex AI systems
+* Proficiency in Python and modern AI tooling
+* Understanding of AI risk, governance frameworks or compliance
+* Strong communication skills
+
+Preferred qualifications
+* Experience with risk, compliance or governance systems
+* Background in AI safety or responsible AI
+* Track record of practical AI applications
+* Rapid prototyping and experimental validation
+* Publications in AI safety, LLMs or governance
+
+Benefits
+Base pay and equity, health/dental/vision, flexible remote work, unlimited PTO, professional development budget, ergonomic equipment benefit, coworking costs covered, up to 12 weeks paid parental leave.

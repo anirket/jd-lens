@@ -4,6 +4,8 @@ from datetime import datetime
 # USD per 1 million tokens
 PRICES = {
     "claude-haiku-5-5": {"in": 0.10, "out": 0.50},
+    "claude-opus-5-5": {"in": 4.00, "out": 20.00},
+    "claude-sonnet-5-5": {"in": 2.00, "out": 10.00}
 }
 USD_TO_INR = 88.0  # TODO: today's rate + date
 

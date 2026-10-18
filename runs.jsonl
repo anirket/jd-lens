@@ -1,2 +1,12 @@
 {"time": "2026-10-17T00:25:06.284777", "model": "claude-haiku-5-5", "case_id": "sarvam_frontend", "attempts": 1, "input_tokens": 2724, "output_tokens": 966, "cost_inr": 0.0664752, "seconds": 3.794384002685547}
 {"time": "2026-10-17T00:48:42.903170", "model": "claude-haiku-5-5", "case_id": "sarvam_frontend", "attempts": 1, "input_tokens": 2724, "output_tokens": 895, "cost_inr": 0.06335120000000001, "seconds": 3.3604612350463867}
+{"time": "2026-10-18T14:56:39.116303", "model": "claude-sonnet-5-5", "case_id": "sarvam_frontend", "attempts": 1, "input_tokens": 2613, "output_tokens": 663, "cost_inr": 1.043328, "seconds": 5.300487995147705}
+{"time": "2026-10-18T14:56:43.048481", "model": "claude-sonnet-5-5", "case_id": "sarvam_frontend", "attempts": 1, "input_tokens": 3215, "output_tokens": 538, "cost_inr": 1.03928, "seconds": 3.928525924682617}
+{"time": "2026-10-18T14:56:47.740021", "model": "claude-sonnet-5-5", "case_id": "sarvam_frontend", "attempts": 1, "input_tokens": 2567, "output_tokens": 834, "cost_inr": 1.185712, "seconds": 4.688405990600586}
+{"time": "2026-10-18T14:56:50.721521", "model": "claude-sonnet-5-5", "case_id": "sarvam_frontend", "attempts": 1, "input_tokens": 1833, "output_tokens": 451, "cost_inr": 0.7194879999999999, "seconds": 2.979739189147949}
+{"time": "2026-10-18T14:56:53.582912", "model": "claude-sonnet-5-5", "case_id": "sarvam_frontend", "attempts": 1, "input_tokens": 2024, "output_tokens": 467, "cost_inr": 0.767184, "seconds": 2.8600540161132812}
+{"time": "2026-10-18T14:56:57.585969", "model": "claude-sonnet-5-5", "case_id": "sarvam_frontend", "attempts": 1, "input_tokens": 1929, "output_tokens": 672, "cost_inr": 0.930864, "seconds": 3.9999759197235107}
+{"time": "2026-10-18T14:57:01.194306", "model": "claude-sonnet-5-5", "case_id": "sarvam_frontend", "attempts": 1, "input_tokens": 2106, "output_tokens": 561, "cost_inr": 0.8643359999999999, "seconds": 3.606220006942749}
+{"time": "2026-10-18T14:57:06.436272", "model": "claude-sonnet-5-5", "case_id": "sarvam_frontend", "attempts": 1, "input_tokens": 2088, "output_tokens": 884, "cost_inr": 1.145408, "seconds": 5.240875005722046}
+{"time": "2026-10-18T14:57:11.268469", "model": "claude-sonnet-5-5", "case_id": "sarvam_frontend", "attempts": 1, "input_tokens": 2085, "output_tokens": 852, "cost_inr": 1.11672, "seconds": 4.830826997756958}
+{"time": "2026-10-18T14:57:15.610649", "model": "claude-sonnet-5-5", "case_id": "sarvam_frontend", "attempts": 1, "input_tokens": 1879, "output_tokens": 707, "cost_inr": 0.952864, "seconds": 4.341310977935791}

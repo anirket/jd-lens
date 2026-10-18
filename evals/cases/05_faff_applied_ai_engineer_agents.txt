@@ -1,0 +1,35 @@
+Source: https://jobfound.org/job/faff-is-hiring-for-applied-ai-engineer-agents-bengaluru-karnataka-india-5-october-2026
+Note: condensed rewrite of the original posting, not verbatim. Posted 05 Oct 2026.
+
+Applied AI Engineer (Agents)
+FAFF
+Bengaluru, Karnataka | Full Time | On-Site, 6 days a week
+Salary: 30-50 LPA
+
+About FAFF
+FAFF is a Bengaluru consumer-tech company building a human + AI personal assistant that people delegate everyday tasks to. They want engineers who go deep on problems; surface-level GenAI familiarity is not enough.
+
+What you'll do
+* Build and deploy AI agents and agentic workflows for real-world use cases
+* Own AI problem statements end to end, from understanding the problem to production
+* Design reliable systems combining LLMs, tools, retrieval, memory and structured workflows
+* Experiment with different approaches and find what works best
+* Improve accuracy, reliability, latency and cost of AI systems
+* Build evaluation and monitoring for AI applications
+* Work with product and engineering to turn real problems into AI solutions
+* Debug failures and keep improving production AI systems
+
+What we're looking for
+* 2-3 years in AI/ML engineering or a closely related engineering role
+* Current or previous experience at a product-based company
+* Hands-on experience building and shipping AI/ML systems
+* Experience building AI agents, agentic workflows or tool-calling systems
+* Strong understanding of LLMs in production
+* Strong programming skills, preferably Python
+* Ability to take an ambiguous problem and go deep to solve it
+* Experience with RAG, embeddings, vector databases, evaluation, prompt engineering or model integration
+* Strong problem-solving and debugging skills
+* Candidates with only surface-level GenAI/LLM exposure will not be a fit
+
+Interview process
+Intro screen, technical interview, AI problem-solving round, hiring manager round, founder round.

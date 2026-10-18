@@ -1,0 +1,63 @@
+{
+  "company": "Degreed",
+  "role": "Senior Frontend Engineer - GenAI Applications",
+  "seniority": "senior",
+  "years_min": 7,
+  "years_max": null,
+  "location": "Bengaluru, Karnataka",
+  "work_mode": "hybrid",
+  "responsibilities": [
+    "Lead end-to-end implementation and optimisation of user-facing GenAI features",
+    "Build frontends for LLM assistants, interactive data visualisations and prompt interfaces with AI, backend and data engineers",
+    "Guide and mentor frontend team members",
+    "Promote best practices and code quality",
+    "Build polished, interactive UIs focused on usability, accessibility and performance",
+    "Troubleshoot production issues to keep AI experiences reliable and scalable",
+    "Partner with product managers, UX and design on feature alignment",
+    "Improve deployment, testing, monitoring and localisation processes",
+    "Keep up with frontend and GenAI advances and introduce new approaches"
+  ],
+  "must_haves": [
+    "7+ years building frontend applications",
+    "3+ years with Angular",
+    "Designing scalable, performant SaaS frontends",
+    "Shipped multiple GenAI applications",
+    "Technical leadership: mentoring, code reviews, architecture, standards",
+    "Deep TypeScript expertise",
+    "Deep ES6 expertise",
+    "Deep RxJS expertise",
+    "Reusable components and modular UI architecture",
+    "HTML and CSS",
+    "UI/UX patterns knowledge",
+    "Integrating GenAI APIs and real-time data flows",
+    "Frontend testing with Jest, Cypress or similar",
+    "Strong cross-functional collaboration and communication"
+  ],
+  "nice_to_haves": [
+    "Angular v14+",
+    "Tailwind CSS",
+    "Accessibility (a11y), ARIA and screen readers",
+    "Data visualisation experience",
+    "Monorepo tooling (Nx)",
+    "React",
+    "Backend exposure (C#, .NET, SQL)"
+  ],
+  "stack": [
+    "Angular",
+    "TypeScript",
+    "ES6",
+    "RxJS",
+    "HTML",
+    "CSS",
+    "Tailwind",
+    "Jest",
+    "Cypress",
+    "HighCharts",
+    "D3.js",
+    "Nx",
+    "React",
+    "C#",
+    ".NET",
+    "SQL"
+  ]
+}

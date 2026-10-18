@@ -18,7 +18,6 @@ class Resume(BaseModel):
 with open('resume.json', 'r') as f:
     resume_data = f.read()
 
-print(resume_data)
 
-resume = Resume.model_validate_json(resume_data)
-print(resume)
+if __name__ == "__main__":
+    resume = Resume.model_validate_json(resume_data)

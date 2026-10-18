@@ -1,0 +1,42 @@
+{
+  "company": "Level AI",
+  "role": "Senior Machine Learning Engineer",
+  "seniority": "senior",
+  "years_min": 3,
+  "years_max": null,
+  "location": "Bangalore / Noida",
+  "work_mode": "hybrid",
+  "responsibilities": [
+    "Build and deploy LLM-powered agents for internal tools and customer-facing products",
+    "Design and improve RAG pipelines, prompt engineering workflows and tool integrations",
+    "Experiment with open-source and closed-source LLMs",
+    "Implement and evaluate reasoning, planning, memory and retrieval modules for agents",
+    "Optimise ML and LLM systems for accuracy, latency, scalability and cost",
+    "Build production-ready AI/NLP pipelines with monitoring, evaluation benchmarks and continual improvement loops",
+    "Collaborate with product, engineering and customer-facing teams to ship AI features"
+  ],
+  "must_haves": [
+    "B.Tech, M.Tech or PhD in CS or maths-related field",
+    "Degree from tier-1 institute",
+    "3+ years industry experience in ML/NLP or applied AI",
+    "Strong Python programming",
+    "Interest and experience in RAG and agentic AI",
+    "Experience with PyTorch, Hugging Face Transformers or similar",
+    "Interest and experience in model training, inference optimisation and GPUs",
+    "Experience deploying ML services via REST APIs, Docker, Kubernetes or cloud platforms"
+  ],
+  "nice_to_haves": [
+    "Exposure to vector databases such as FAISS, Pinecone or Qdrant"
+  ],
+  "stack": [
+    "Python",
+    "PyTorch",
+    "Hugging Face Transformers",
+    "Docker",
+    "Kubernetes",
+    "REST APIs",
+    "FAISS",
+    "Pinecone",
+    "Qdrant"
+  ]
+}
