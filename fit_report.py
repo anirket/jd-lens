@@ -22,6 +22,21 @@ class FitReport(BaseModel):
     bullets: list[TailoredBullet]
     gaps: list[str] = Field(..., description="must haves with no honest match")
 
+ 
+def find_fakes(fit_report, resume):
+    """Return the quotes the model gave that are NOT really in the resume."""
+    resume_text = resume.model_dump_json()
+    bullets = [b for job in resume.jobs for b in job.bullets]
+
+    fakes = []
+    for m in fit_report.matches:
+        if m.matched and (m.evidence is None or m.evidence not in resume_text):
+            fakes.append(str(m.evidence))
+    for b in fit_report.bullets:
+        if b.source_bullet not in bullets:
+            fakes.append(b.source_bullet)
+    return fakes
+
 
 def run_fit_report(jd, resume, model, modelId, fileName):
     OUTPUT_PATH = Path(f"evals/score_fit/{fileName}.json")
@@ -40,17 +55,20 @@ def run_fit_report(jd, resume, model, modelId, fileName):
     seconds = time.time() - start
     run = log_run(modelId, f"fit_{fileName}", usage["attempts"], usage["input"], usage["output"], seconds)
     print(f"\n=== {modelId} : {fileName} ===\n\n")
-    matched= sum(1 for m in fit_report.matches if m.matched)
-    score = matched / len(fit_report.matches) * 100;
+    matched = sum(1 for m in fit_report.matches if m.matched)
+    score = matched / len(fit_report.matches) * 100
 
     print(f"\n=== Your Score for {fileName} job is {score}% ===\n\n")
-        
+
+    fakes = find_fakes(fit_report, resume)
+    print("FAKE QUOTES:" if fakes else "quotes OK", fakes if fakes else "")
+
 
 if __name__ == "__main__":
     model = Model[sys.argv[1]] if len(sys.argv) > 1 else Model.ANTHROPIC  # "ANTHROPIC" (text) -> Model.ANTHROPIC
     modelId = sys.argv[2] if len(sys.argv) > 2 else "claude-haiku-5-5"  # default model
     resume = load_resume()
-    for case in sorted(Path("evals/cases").glob("*.txt")):  # ONE case while building; remove [2:3] to run all
+    for case in sorted(Path("evals/cases").glob("*.txt")):
         start = time.time()
         jd, usage = extract_job_description(case.read_text(), model, modelId, None, None)
         seconds = time.time() - start

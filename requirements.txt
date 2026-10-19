@@ -46,3 +46,6 @@ typing_extensions==4.16.0
 urllib3==2.8.0
 yarl==1.25.1
 rapidfuzz==3.14.6
+fastapi==0.147.0
+starlette==1.9.0
+uvicorn==0.54.0
