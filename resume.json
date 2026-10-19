@@ -1,11 +1,11 @@
 {
-  "name": "Aniket Kulkarni",
+  "name": "Alex Morgan",
   "years_of_experience": 4,
   "skills": [
     "React.js",
     "Next.js",
-    "Astro.js",
     "TypeScript",
+    "JavaScript",
     "Node.js",
     "Express",
     "HTML",
@@ -13,53 +13,53 @@
     "TailwindCSS",
     "Redux",
     "Jest",
-    "React Native (Expo)"
+    "React Native"
   ],
   "jobs": [
     {
-      "company": "Smallcase (Tickertape)",
-      "title": "SDE - 2 Software Engineer",
-      "start": "Oct 2024",
+      "company": "Brightwave Labs",
+      "title": "Senior Frontend Engineer",
+      "start": "Mar 2025",
       "end": "Present",
       "bullets": [
-        "Built a reusable frontend SDK adopted by multiple teams across the organization, standardizing shared functionality and reducing duplicated effort.",
-        "Reduced JavaScript bundle chunk sizes through code splitting, lazy loading and dependency cleanup, improving page load performance.",
-        "Raised code quality standards by establishing linting rules, coding guidelines and stricter code review practices across the team.",
-        "Improved internal developer tools, streamlining day-to-day workflows and increasing team productivity."
+        "Built a shared component library used by five product teams, standardizing UI patterns and cutting duplicated front-end work.",
+        "Reduced JavaScript bundle size through code splitting, lazy loading and removal of unused dependencies, improving page load time.",
+        "Introduced ESLint rules, coding guidelines and stricter pull request reviews to raise code quality across the team.",
+        "Improved internal developer tooling and build scripts, saving the team time on everyday tasks."
       ]
     },
     {
-      "company": "Smallcase (Tickertape)",
-      "title": "SDE - 1 Frontend Engineer",
-      "start": "Oct 2022",
-      "end": "Oct 2024",
+      "company": "Brightwave Labs",
+      "title": "Frontend Engineer",
+      "start": "Jun 2022",
+      "end": "Mar 2025",
       "bullets": [
-        "Developed a comprehensive user portfolio tracking platform that enables users to synchronize their investment assets, including mutual funds and stocks, facilitating a centralized location for tracking and managing their holdings.",
-        "Introduced unit testing within the codebase, which significantly contributed to the team's ability to create comprehensive tests and proactively identify potential bugs during the early stages of development.",
-        "Enabled Smallcase transactions on the platform, providing users with the convenience of buying and selling Smallcases directly within the platform.",
-        "Used Next.js, React.js, Astro.js, TypeScript, Jest etc."
+        "Developed a customer analytics dashboard that lets users connect their accounts and view charts of their activity in one place.",
+        "Added unit and integration testing to the codebase, helping the team catch bugs early in development.",
+        "Shipped an online checkout flow that lets customers complete purchases directly inside the web app.",
+        "Used Next.js, React.js, TypeScript, Jest and similar tools."
       ]
     },
     {
-      "company": "Smallcase (Tickertape)",
+      "company": "Northfield Apps",
       "title": "Frontend Intern",
-      "start": "Apr 2022",
-      "end": "Oct 2022",
+      "start": "Jan 2022",
+      "end": "Jun 2022",
       "bullets": [
-        "Revamped the existing watchlist section, providing users with an enhanced platform to curate and monitor their preferred stocks and mutual funds.",
-        "Worked on code optimizations, discovery of many features, visualizations and charts.",
-        "Used Next.js, React.js, TypeScript, etc."
+        "Redesigned the favourites section so users can save and organise the items they follow.",
+        "Worked on performance fixes and built several data charts and visualisations.",
+        "Used React.js, TypeScript and similar tools."
       ]
     },
     {
-      "company": "Shortcast",
-      "title": "Web Engineer Intern",
-      "start": "Sep 2021",
-      "end": "Jan 2022",
+      "company": "Northfield Apps",
+      "title": "Web Developer Intern",
+      "start": "Jul 2021",
+      "end": "Dec 2021",
       "bullets": [
-        "As one of the earliest members of the team, played a pivotal role in rewriting the existing no-code website to a new version from scratch with a new UI using React.js.",
-        "Built the Android app using React Native Expo.",
-        "Used React.js, React Native (Expo) etc."
+        "As one of the first engineers on the team, helped rewrite the marketing website from scratch in React.js with a new design.",
+        "Built the first version of the Android app using React Native.",
+        "Used React.js and React Native."
       ]
     }
   ]

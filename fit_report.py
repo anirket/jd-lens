@@ -55,13 +55,17 @@ def run_fit_report(jd, resume, model, modelId, fileName):
     seconds = time.time() - start
     run = log_run(modelId, f"fit_{fileName}", usage["attempts"], usage["input"], usage["output"], seconds)
     print(f"\n=== {modelId} : {fileName} ===\n\n")
-    matched = sum(1 for m in fit_report.matches if m.matched)
-    score = matched / len(fit_report.matches) * 100
-
-    print(f"\n=== Your Score for {fileName} job is {score}% ===\n\n")
-
+    # score only what is verified: a match counts only if its evidence is really in the resume
+    resume_text = resume.model_dump_json()
     fakes = find_fakes(fit_report, resume)
-    print("FAKE QUOTES:" if fakes else "quotes OK", fakes if fakes else "")
+    claimed = sum(1 for m in fit_report.matches if m.matched)
+    verified = [m for m in fit_report.matches
+                if m.matched and m.evidence and m.evidence in resume_text]
+    score = len(verified) / len(fit_report.matches) * 100
+    print(f"fit {score:.0f}% ({len(verified)} verified of {len(fit_report.matches)} must-haves; "
+          f"model claimed {claimed}, {len(fakes)} unverifiable quote(s) discarded)")
+    if fakes:
+        print("FAKE QUOTES:", fakes)
 
 
 if __name__ == "__main__":
