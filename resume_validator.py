@@ -16,14 +16,5 @@ class Resume(BaseModel):
     jobs: list[Jobs] = Field(..., description="List of past and current jobs candidate has held, including company name, title, start and end dates, and bullet points describing their responsibilities and achievements in each role.")
 
 
-
-if __name__ == "__main__":
-    resume = Resume.model_validate_json(Path('resume.json').read_text())
-    def all_lines():
-        lines = []
-        for job in resume.jobs:
-            for b in job.bullets:
-                lines.append(b)
-        return lines
-    # print(resume)
-    print(all_lines())
+def load_resume():
+    return Resume.model_validate_json(Path('resume.json').read_text())

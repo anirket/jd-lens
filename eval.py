@@ -63,7 +63,7 @@ for case in sorted(Path("evals/cases").glob("*.txt")):
     output_path = Path(f"model_ouput/{model}/{modelId}_{case.stem}.json") 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     start = time.time()
-    jd, usage = extract_job_description(case.read_text(), model, modelId)
+    jd, usage = extract_job_description(case.read_text(), model, modelId, None, None)
     seconds = time.time() - start
     run = log_run(modelId, case.stem, usage["attempts"], usage["input"], usage["output"], seconds)
     output_path.write_text(jd.model_dump_json(indent=2))

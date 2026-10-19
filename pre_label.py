@@ -22,7 +22,7 @@ for case in sorted(CASES_DIR.glob("*.txt")):
         continue
     txt = case.read_text();
     start = time.time()
-    jd, usage = extract_job_description(txt, model, modelId)
+    jd, usage = extract_job_description(txt, model, modelId, None, None)
     seconds = time.time() - start
     log_run(modelId, case.stem, usage["attempts"], usage["input"], usage["output"], seconds)
 

@@ -24,7 +24,9 @@ all_model_Ids = [
     for modelDetails in model.values()
 ]
 
-def extract_job_description(jd_text: str, model: Model, modelId: str) -> JobDescription:
+def extract_job_description(jd_text, model: Model, modelId: str, responseModel=None, prompt=None, maxTokens=2048):
+    if responseModel is None:
+        responseModel = JobDescription
     # token counter: instructor calls count_tokens() after EVERY API response (retries too)
     if model not in Model:
         raise ValueError(f"Invalid Model: {model}")
@@ -47,17 +49,18 @@ def extract_job_description(jd_text: str, model: Model, modelId: str) -> JobDesc
 
     client.on("completion:response", count_tokens)
 
-    prompt = (
-        "Extract the structured details from the job description below.\n\n"
-        f"<job_description>\n{jd_text}\n</job_description>"
-    )
+    if prompt is None:
+        prompt = (
+            "Extract the structured details from the job description below.\n\n"
+            f"<job_description>\n{jd_text}\n</job_description>"
+        )
     try:
         result = client.messages.create(
             model=modelId,
-            max_tokens=2048,
+            max_tokens=maxTokens,
             max_retries=3,
             messages=[{"role": "user", "content": prompt}],
-            response_model=JobDescription
+            response_model=responseModel
         )
     finally:
         client.off("completion:response", count_tokens)
